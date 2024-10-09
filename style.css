@@ -5,7 +5,7 @@
 }
 
 .header {
-    
+
     margin: 20px 15px;
     display: flex;
     justify-content: space-between;
@@ -16,9 +16,9 @@ a {
 }
 
 .header ul {
-  display: flex;
-  gap: 10px;
-  list-style: none;
+    display: flex;
+    gap: 10px;
+    list-style: none;
 
 }
 
@@ -28,7 +28,7 @@ a {
     margin: 0 auto;
     height: 520px;
     border: 1px solid black;
-    background-color: yellow; 
+    background-color: #ffff00;
 }
 
 .container {
@@ -37,6 +37,7 @@ a {
     margin: 0 auto;
     border: 1px solid black;
     margin-top: 180px;
+
 }
 
 .bottom-header {
@@ -45,3 +46,119 @@ a {
     padding-top: 70px;
 }
 
+.main-head {
+    background-color: #8a2be2;
+    height: 180px;
+}
+
+.grill1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.grill1-head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.sub-grill1-h {
+    background-color: #441dad;
+    height: 60px;
+    width: 30%;
+}
+
+.sub-grill1 {
+    background-color: #a52a2a;
+    height: 800px;
+    width: 30%;
+}
+
+.team-header {
+    background-color: #00ffff;
+    margin-top: 40px;
+    height: 40px;
+}
+
+.team-bottom {
+    background-color: #7fff00;
+    height: 200px;
+}
+
+.grill3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.sub-grill3-60 {
+    background-color: #cc6b11;
+    height: 400px;
+    width: 60%;
+}
+
+.sub-grill3-35 {
+    background-color: #ffe600;
+    height: 400px;
+    width: 35%;
+}
+
+.grill4 {
+    background-color: #dc143c;
+    height: 80px;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+
+.grill5 {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.sub-grill5 {
+    background-color: #ff69b4;
+    width: calc(95% / 3);
+    height: 400px;
+  }
+
+  .grill6 {
+    background-color: #ff0000;
+    height: 200px;
+    margin: 40px 0px;
+  }
+
+  .footer {
+    margin: 0 auto;
+    display: flex;
+    background-color: black;
+    height: 500px;
+    
+  }
+
+  .footer-list {
+    display: inline-block;
+    height: 350px;
+    width: calc(98% / 5);
+    background-color: green;
+    justify-content: space-between;
+    
+  }
+
+  .footer ul {
+    list-style: none;
+  }
+
+  .container2 {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
