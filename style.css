@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
 .header {
 
@@ -17,18 +20,20 @@ a {
 
 .header ul {
     display: flex;
-    gap: 10px;
+    gap: 40px;
     list-style: none;
+    align-items: center;
+}
 
+.header a {
+    color: #000000;
 }
 
 .header-bottom-container {
     width: 60%;
     max-width: 1100px;
     margin: 0 auto;
-    height: 520px;
-    border: 1px solid black;
-    background-color: #ffff00;
+    height: 100%;
 }
 
 .container {
@@ -42,7 +47,7 @@ a {
 
 .bottom-header {
     background-color: #6aafca;
-    height: 500px;
+    height: 650px;
     padding-top: 70px;
 }
 
@@ -162,3 +167,63 @@ a {
     margin: 0 auto;
     margin-top: 100px;
   }
+
+  .header .btn {
+    color: white;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 14px;
+  }
+
+  .btn {
+    color: white;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 14px;
+  }
+
+  .head-title {
+    font-size: 90px;
+    font-weight: 900;
+  }
+
+  .h-col {
+    display: flex;
+  }
+
+  .h-40 {
+    margin-top: 50px;
+    font-size: 17px;
+  }
+
+  .h-60 {
+    width: 80%;
+  }
+
+  .img-h-60 {
+    padding-top: 50px;
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h-col30 {
+    gap: 20px;
+
+    width: 40%;
+  }
+
+  .mtb-10 {
+    margin: 20px 0px 20px 0px;
+  }
+
+  .arrow {
+    margin-top: 60px;
+    font-size: 50px;
+  }
+
+  
+
