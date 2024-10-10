@@ -43,7 +43,6 @@ ul {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-    border: 1px solid black;
     margin-top: 180px;
 
 }
@@ -114,22 +113,29 @@ ul {
     width: 60px;
 }
 
+.fa-check {
+    color: rgb(0, 81, 255);
+}
+
 .sub-grill1 {
     padding: 30px;
-    height: 800px;
     width: 30%;
-    border: 1px solid black;
+    border: 1px solid #00000015;
 }
 
 .team-header {
-    background-color: #00ffff;
     margin-top: 40px;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00000015;
 }
 
 .team-bottom {
-    background-color: #7fff00;
-    height: 200px;
+    border: 1px solid #00000015;
+    padding-bottom: 50px;
+    display: flex;
 }
 
 .grill3 {
@@ -137,17 +143,20 @@ ul {
     justify-content: space-between;
     gap: 10px;
     margin-top: 20px;
+    
 }
 
 .sub-grill3-60 {
-    background-color: #cc6b11;
-    height: 400px;
-    width: 60%;
+    width: 65%;
+}
+
+.sub-grill3-60 img {
+    object-fit: contain;
+    object-fit: cover;
+    width: 100%;
 }
 
 .sub-grill3-35 {
-    background-color: #ffe600;
-    height: 400px;
     width: 35%;
 }
 
@@ -216,9 +225,14 @@ ul {
   .btn {
     color: white;
     background-color: blue;
-    justify-content: center;
-    align-items: center;
     padding: 7px 14px;
+  }
+
+  .btn-light {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 7px 14px;
+    border: 1px groove black;
   }
 
   .head-title {
@@ -269,6 +283,28 @@ ul {
 
   .h2-main {
     font-size: 40px;
+  }
+
+  .col-60 {
+    width: 60%;
+    padding: 20px 0px 0px 20px;
+  }
+
+  .col-60 h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+
+  .col-60 h4 {
+    font-size: 14px;
+    padding-bottom: 80px;
+  }
+
+  .col-40 {
+    position: relative;
+    left: 200px;
+    top: 40px;
+    width:40%;
   }
 
   
