@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -21,8 +21,11 @@ a {
 .header ul {
     display: flex;
     gap: 40px;
-    list-style: none;
     align-items: center;
+}
+
+ul {
+    list-style: none;
 }
 
 .header a {
@@ -30,8 +33,8 @@ a {
 }
 
 .header-bottom-container {
-    width: 60%;
-    max-width: 1100px;
+    width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
     height: 100%;
 }
@@ -47,13 +50,7 @@ a {
 
 .bottom-header {
     background-color: #6aafca;
-    height: 650px;
     padding-top: 70px;
-}
-
-.main-head {
-    background-color: #8a2be2;
-    height: 180px;
 }
 
 .grill1 {
@@ -73,15 +70,55 @@ a {
 }
 
 .sub-grill1-h {
-    background-color: #441dad;
-    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     width: 30%;
+    margin-bottom: 10px;
+}
+
+.sub-grill1 h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sub-grill1 h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.sub-grill1 p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.sub-grill1 li {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.sub-grill1 ul {
+    margin: 60px 0px;
+}
+
+.buynow {
+    padding: 30px 0px;
+}
+
+.buynow a {
+    text-decoration-line: underline;
+}
+
+.hr {
+    color: #ffffff;
+    width: 60px;
 }
 
 .sub-grill1 {
-    background-color: #a52a2a;
+    padding: 30px;
     height: 800px;
     width: 30%;
+    border: 1px solid black;
 }
 
 .team-header {
@@ -185,7 +222,7 @@ a {
   }
 
   .head-title {
-    font-size: 90px;
+    font-size: 110px;
     font-weight: 900;
   }
 
@@ -194,12 +231,14 @@ a {
   }
 
   .h-40 {
-    margin-top: 50px;
+    margin-top: 125px;
     font-size: 17px;
   }
 
   .h-60 {
     width: 80%;
+    position: relative;
+    top: 80px;
   }
 
   .img-h-60 {
@@ -212,17 +251,24 @@ a {
 
   .h-col30 {
     gap: 20px;
-
     width: 40%;
   }
 
-  .mtb-10 {
-    margin: 20px 0px 20px 0px;
+  .mtb-20 {
+    margin: 20px 0px 30px 0px;
   }
 
   .arrow {
     margin-top: 60px;
     font-size: 50px;
+  }
+
+  .radio-btn {
+    margin: 40px 0px 30px 0px;
+  }
+
+  .h2-main {
+    font-size: 40px;
   }
 
   
